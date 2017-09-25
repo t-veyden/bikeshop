@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+     <title>Bikeshop</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <h1>
+        <span class="visually-hidden">Bikeshop: best handmade bicycles</span>
+      </h1>
+      <div class="header__wrapper  container">
+        <div class="header__logo">
+          <img src="img/logo-white.png" width="160" height="50"
+          alt="The Bikeshop logo">
+        </div>
+        <nav class="main-menu">
+          <ul class="main-menu__items">
+            <li class="main-menu__item">
+              <a href="#">Bicycles</a>
+              <ul class="sub-menu">
+                <li class="sub-menu__item">
+                  <a href="#">Fixed / single speed</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#">City bikes</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#">Premium series</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-menu__item">
+              <a href="#">Parts</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#">Accessories</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#">Extras</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#">
+                <span class="visually-hidden">Cart</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="slider">
+        <article class="slider__item">
+            <b class="slider__title">Handmade Bicycle</b>
+            <p class="slider__description">You create the journey, we supply the parts.</p>
+            <a class="slider__btn" href="#">Shop Bikes</a>
+        </article>
+        <article class="slider__item">
+            <b class="slider__title">Lorem Ipsum</b>
+            <p class="slider__description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            <a class="slider__btn" href="#">Shop Spikes</a>
+        </article>
+        <article class="slider__item">
+            <b class="slider__title">Dolor sit amet</b>
+            <p class="slider__description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            <a class="slider__btn" href="#">Shop Mikes</a>
+        </article>
+    		<a class="slider__prev" onclick="plusSlides(-1)">&#10094</a>
+    		<a class="slider__next" onclick="plusSlides(1)">&#10095</a>
+    	</div>
+    </header>
+    <main>
+      <section class="categories">
+        <h2 class="section-title">Categories</h2>
+        <div class="categories__wrapper  container">
+          <section class="categories__item  categories__item--1">
+            <div class="categories__info">
+              <h2 class="categories__title">Fixed / single speed</h2>
+              <p>Are You ready for the 27.5 Revolution?</p>
+            </div>
+            <a href="#" class="categories__btn">Go to store</a>
+          </section>
+          <section class="categories__item  categories__item--2">
+            <div class="categories__info">
+              <h2 class="categories__title">Premium series</h2>
+              <p>Exclusive bike components</p>
+            </div>
+            <a href="#" class="categories__btn">Go to store</a>
+          </section>
+          <section class="categories__item  categories__item--3">
+            <div class="categories__info">
+              <h2 class="categories__title">City bikes</h2>
+              <p>Street Playground</p>
+            </div>
+            <a href="#" class="categories__btn">Go to store</a>
+          </section>
+        </div>
+      </section>
+      <section class="popular">
+        <h2 class="section-title">Popular bikes</h2>
+        <div class="popular__wrapper  container">
+          <article class="popular__item">
+            <img class="popular__img" src="img/bike-photo.jpg" width="300" height="239" alt="Fixed gear bicycle">
+            <div class="popular__description">
+              <div class="popular__description-wrapper">
+                <b class="popular__title">Fixed gear</b>
+                <span class="popular__price">&#36;249.00</span>
+              </div>
+              <div class="popular__select-wrapper">
+                <form class="popular__form" action="#" method="get" id="popular-form">
+                  <select class="popular__select" name="fixedGear-select" value="popular-form">
+                    <option value="FixedGear-a">Option a</option>
+                    <option value="FixedGear-b">Option b</option>
+                  </select>
+                  <button type="submit" class="popular__btn">Buy</button>
+                </form>
+              </div>
+            </div>
+          </article>
+          <article class="popular__item">
+            <img class="popular__img" src="img/bike-photo2.jpg" width="300" height="239" alt="Big boy ultra bicycle">
+            <div class="popular__description">
+              <div class="popular__description-wrapper">
+                <b class="popular__title">Big boy ultra</b>
+                <span class="popular__price">&#36;249.00</span>
+              </div>
+              <div class="popular__select-wrapper">
+                <select class="popular__select" name="bigBoy-select" value="popular-form">
+                  <option value="BigBoy-a">Option a</option>
+                  <option value="BigBoy-b">Option b</option>
+                </select>
+                <button type="submit" class="popular__btn">Buy</button>
+              </div>
+            </div>
+          </article>
+          <article class="popular__item">
+            <img class="popular__img" src="img/bike-photo3.jpg" width="300" height="239" alt="Sanchaez bicycle">
+            <div class="popular__description">
+              <div class="popular__description-wrapper">
+                <b class="popular__title">Sanchaez</b>
+                <span class="popular__price">&#36;249.00</span>
+              </div>
+              <div class="popular__select-wrapper">
+                <select class="popular__select" name="sanchaez-select" value="popular-form">
+                  <option value="Sanchaez-a">Option a</option>
+                  <option value="Sanchaez-b">Option b</option>
+                </select>
+                <button type="submit" class="popular__btn">Buy</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="contact">
+        <h2 class="section-title">Contact us</h2>
+        <p>Please contact us for all inquiries and purchase options.</p>
+        <form class="contact__form" action="#" method="post">
+          <fieldset class="field">
+            <legend>
+              <span class="visually-hidden">Introduce yourself</span>
+            </legend>
+            <label for="name-field">
+              <span class="visually-hidden">Your name:</span>
+            </label>
+            <input class="contact__name" type="text" id="name-field" placeholder="Name" required>
+            <label for="surname-field">
+              <span class="visually-hidden">Your surname:</span>
+            </label>
+            <input class="contact__surname" type="text" id="surname-field" placeholder="Surname" required>
+          </fieldset>
+          <fieldset>
+            <legend>
+              <span class="visually-hidden">Contact information</span>
+            </legend>
+            <label for="mail-field">
+              <span class="visually-hidden">Your e-mail address:</span>
+            </label>
+            <input class="contact__mail" type="mail" id="mail-field" placeholder="user@domain.com">
+          </fieldset>
+          <fieldset>
+            <label for="message-field">
+              <span class="visually-hidden">Leave us a message</span>
+            </label>
+            <textarea class="contact__message" name="message" id="message-field" cols="30" rows="10" placeholder="Message"></textarea>
+          </fieldset>
+          <button class="contact__form-submit" type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="img/logo-dark.png" width="115" height="36"
+        alt="The Bikeshop logo">
+      </div>
+      <nav class="footer-menu">
+        <ul class="footer-menu__items">
+          <li class="footer-menu__item">
+            <a href="#">Bicycles</a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="#">Parts</a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="#">Accessories</a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="#">Extras</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <script>
+    var slideIndex=1;
+
+    function plusSlides(n){
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n){
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n){
+      var slides = document.querySelectorAll('.slider__item');
+
+      if(n > slides.length){
+        slideIndex = 1;
+      }
+      if(n < 1){
+        slideIndex = slides.length;
+      }
+      for(var i = 0; i < slides.length; i++){
+        slides[i].style.display = "none";
+      }
+       slides[slideIndex-1].style.display = "block";
+    }
+    showSlides(slideIndex);
+    </script>
+  </body>
+</html>
